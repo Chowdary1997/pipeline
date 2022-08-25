@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'C:\\tomcat\webapps'
-   def tomcatBin = 'C:\\tomcat\bin'
+   def tomcatWeb = 'C:\\tomcat\\webapps'
+   def tomcatBin = 'C:\\tomcat\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/Chowdary1997/pipeline.git'
